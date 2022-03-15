@@ -7,24 +7,24 @@ const routes = [
   {
     path: '/',
     name: 'add',
-    component: () => import('../components/UserCreate')
+    component: () => import('../components/UserCreate'),
   },
   {
     path: '/list',
     name: 'list',
-    component: () => import('../components/UserList')
+    component: () => import('../components/UserList'),
   },
   {
     path: '/edit/:id',
     name: 'edit',
-    component: () => import('../components/UserEdit')
-  }
+    component: () => import('../components/UserEdit'),
+  },
 ]
 
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
-  routes
+  routes,
 })
 
 export default router

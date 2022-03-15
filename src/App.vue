@@ -1,6 +1,8 @@
 <template>
   <div>
-    <nav class="navbar navbar-dark bg-dark justify-content-between flex-nowrap flex-row">
+    <nav
+      class="navbar navbar-dark bg-dark justify-content-between flex-nowrap flex-row"
+    >
       <div class="container">
         <a class="navbar-brand float-left">Firebase Vue CRUD Example</a>
         <ul class="nav navbar-nav flex-row float-right">
